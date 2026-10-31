@@ -146,7 +146,11 @@ section{position:relative;z-index:1;min-height:100vh;min-height:100svh;display:f
 .status:empty{display:none}
 .musicline{font-family:var(--serif);font-style:italic;color:var(--soft);margin-top:2.4rem;font-size:1rem}
 
-@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-delay:0s!important;animation-iteration-count:1!important;transition-duration:.01ms!important;transition-delay:0s!important;scroll-behavior:auto!important}}
+@media (prefers-reduced-motion:reduce){
+  *{
+    scroll-behavior:auto!important;
+  }
+}
 </style>
 </head>
 <body>
